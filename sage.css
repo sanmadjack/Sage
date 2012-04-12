@@ -1,0 +1,84 @@
+body {
+	background-color:black;
+	color:white;
+	overflow:hidden;
+}
+section {
+	position:absolute;
+}
+section.welcome {
+	top:20px;
+	left:20px;
+
+}
+
+section.picture img{
+top:0;
+left:0;
+position:absolute;
+}
+section.picture {
+z-index:-100;
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+border: solid 1px red;
+}
+/* Navigation styles */
+nav {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+nav header {
+	font-weight:bold;
+}
+nav a {
+	text-decoration:none;
+}
+nav a:hover {
+	text-decoration:underline;
+}
+/* Service info styles */
+section.status {
+	top:0;
+	right:0;
+}
+
+/* Console output section */
+section.console {
+	top:0;
+	left:0;
+	right:0;
+	height:0px;
+	overflow:scroll;
+	background-color:black;
+	border-width:0;
+	border-color:red;
+	opacity:0.5;
+	border-width-bottom:1px;
+}
+
+section.console:hover {
+	height:50%;
+}
+
+.error, .red {
+	color:red;
+}
+.success, .green {
+	color:green;
+}
+
+
+footer.copyright {
+	position:absolute;
+	right:0;
+	bottom:0;
+	cursor:default;
+}
